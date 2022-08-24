@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador IMC</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+    
+<body>
+    <div class="centro">
+        <form id="form1">
+            <label class="label">
+                <div class="toggle">
+                    <input class="toggle-state" type="checkbox" name="check" value="check" id="check">
+                    <div class="indicator"></div>
+                </div>
+                
+            </label>
+            <div><h1>Calculadora de IMC</h1></div>
+            <div>
+                <input id=campo0 type="text" autocomplete="off" placeholder="Nome">
+            </div>
+            <div>
+                <input id=campo1 type="text" autocomplete="off" placeholder="Altura" maxlength="4">
+            </div>
+            <div>
+                <input id=campo2 type="text" autocomplete="off" placeholder="Peso" maxlength="5">
+            </div>
+            <div>
+                <button id=btn onclick="imc()">CALCULE </button>
+                <!--<input id=btn type="button" placeholder="Calcular" onclick="imc()">-->
+            </div>
+        </form> 
+            
+        
+</body>
+</html>
